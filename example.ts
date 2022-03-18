@@ -39,7 +39,7 @@ const Account: IAccount = {
 let accounts: IAccount[];
 
 class InvestmentAccount implements IAccount {
-  //   balance;
+  //   balance; we can declare implemented methods here or in constructor
   //   name;
   constructor(public balance, public name) {}
 }
