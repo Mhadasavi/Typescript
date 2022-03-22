@@ -18,3 +18,17 @@ function add2(price, vat) {
     return price + vat;
 }
 console.log(add(3, 6));
+var Account = {
+    name: "",
+    balance: 0
+};
+var accounts;
+var InvestmentAccount = /** @class */ (function () {
+    //   balance; we can declare implemented methods here or in constructor
+    //   name;
+    function InvestmentAccount(balance, name) {
+        this.balance = balance;
+        this.name = name;
+    }
+    return InvestmentAccount;
+}());
